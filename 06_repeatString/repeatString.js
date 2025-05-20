@@ -1,6 +1,9 @@
-const repeatString = function() {
-
+let repeatString = (word, times) => {
+    let repeat = "";
+    for (let num = 0; num < times; num++) {
+        repeat += word;
+    };
+    return repeat;
 };
 
-// Do not edit below this line
 module.exports = repeatString;
